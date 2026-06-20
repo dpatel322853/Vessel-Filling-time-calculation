@@ -392,10 +392,6 @@ st.dataframe(df, use_container_width=True)
 st.subheader("Engineering Notes")
 st.markdown(
     """
-- Base model uses calibrated choked flowrate and square-root pressure-drop scaling after de-choking.
-- Pressure calculations use the real gas equation with user-specified constant Z.
-- The 3D plot is intended for visual diagnostics; X = time, Y = vessel pressure, Z = RO flowrate, colour = differential pressure.
-- PDF export includes inputs, KPIs, 2D plots, 3D plot, and selected simulation rows. CSV export should be used for the full detailed table.
-- For higher accuracy, replace constant Z with Peng-Robinson/SRK or validated property package values.
+Created by Dhawal Patel
 """
 )
