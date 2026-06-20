@@ -389,9 +389,5 @@ st.download_button(
 st.subheader("Simulation Table")
 st.dataframe(df, use_container_width=True)
 
-st.subheader("Engineering Notes")
-st.markdown(
-    """
-Created by Dhawal Patel
-"""
-)
+st.subheader("Created by Dhawal Patel")
+
