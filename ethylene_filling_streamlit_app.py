@@ -15,7 +15,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 st.set_page_config(page_title="Ethylene Vessel Filling Through RO", layout="wide")
 
 st.title("Ethylene Vessel Filling Through Restriction Orifice")
-st.caption("Dynamic engineering calculation tool for vessel pressure, RO flowrate, filling time, choked/non-choked transition, 3D plot, and PDF export.")
+
 
 
 def simulate_filling(
