@@ -21,7 +21,7 @@ st.title("Ethylene Vessel Filling Through Restriction Orifice")
 def simulate_filling(
     V_m3=90.0,
     T_C=35.0,
-    Z=1.0,
+    Z=0.778,
     MW_kg_per_kmol=28.054,
     P_up_g_kgcm2=37.5,
     P_initial_g_kgcm2=0.0,
