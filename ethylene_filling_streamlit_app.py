@@ -139,7 +139,7 @@ def create_pdf_report(df, summary, inputs):
     story = []
 
     story.append(Paragraph("Ethylene Vessel Filling Through Restriction Orifice", styles["Title"]))
-    story.append(Paragraph("Dynamic calculation report: pressure profile, RO flowrate, choked/non-choked transition, and selected plots.", styles["BodyText"]))
+   
     story.append(Spacer(1, 0.15 * inch))
 
     transition_text = "Not detected"
@@ -241,7 +241,7 @@ def create_pdf_report(df, summary, inputs):
         ("FONTSIZE", (0, 0), (-1, -1), 7.5),
     ]))
     story.append(Paragraph("Selected Simulation Results", styles["Heading2"]))
-    story.append(Paragraph("Table includes first 10 and last 10 rows. Download CSV from app for full dataset.", styles["BodyText"]))
+    story.append(Paragraph("Table includes first 10 and last 10 rows. Refer CSV file for full dataset.", styles["BodyText"]))
     story.append(result_table)
 
     doc.build(story)
